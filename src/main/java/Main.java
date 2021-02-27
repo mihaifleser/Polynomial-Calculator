@@ -7,13 +7,14 @@ public class Main {
         System.out.println(m1.writeMonomial());
         Monomial m2 = new Monomial("-7x^4");
         System.out.println(m2.writeMonomial());
-        Monomial m3 = new Monomial("+5x^2");
+        Monomial m3 = new Monomial("5x^2");
+        System.out.println(m3.writeMonomial());
         Polynomial p = new Polynomial();
         p.addMonomial(m1);
         p.addMonomial(m2);
         p.addMonomial(m3);
         System.out.println(p.writePoly());
 
-        Polynomial p2 = new Polynomial("-632x^-2+93x^+5");
+        Polynomial p2 = new Polynomial("-21x^13+9321x^-5");
     }
 }

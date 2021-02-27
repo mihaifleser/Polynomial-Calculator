@@ -6,13 +6,11 @@ public class Polynomial {
     private ArrayList<Monomial> content;
 
     public Polynomial(String input) {
-        String pattern = "[+-][........]x\\^[+-][........]";
-
         // Create a Pattern object
-        Pattern r = Pattern.compile(pattern);
+        Pattern pattern = Pattern.compile("[+-]?[^x]+x\\^[+-]?[^+-]+");
 
         // Now create matcher object.
-        Matcher m = r.matcher(input);
+        Matcher m = pattern.matcher(input);
         while (m.find()) {
             // Get the group matched using group() method
             System.out.print(m.group() + " ");
