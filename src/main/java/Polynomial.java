@@ -6,14 +6,12 @@ public class Polynomial {
     private ArrayList<Monomial> content;
 
     public Polynomial(String input) {
-        // Create a Pattern object
+        content = new ArrayList<>();
+        input = input.replaceAll("\\s+","");
         Pattern pattern = Pattern.compile("[+-]?[^x]+x\\^[+-]?[^+-]+");
-
-        // Now create matcher object.
         Matcher m = pattern.matcher(input);
         while (m.find()) {
-            // Get the group matched using group() method
-            System.out.print(m.group() + " ");
+            addMonomial(new Monomial(m.group()));
         }
     }
     public Polynomial(ArrayList <Monomial> content)

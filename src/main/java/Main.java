@@ -15,6 +15,7 @@ public class Main {
         p.addMonomial(m3);
         System.out.println(p.writePoly());
 
-        Polynomial p2 = new Polynomial("-21x^13+9321x^-5");
+        Polynomial p2 = new Polynomial("-21x^13 + 9321x^-5 + 32x^0 + 14 x^13");
+        System.out.println(p2.writePoly());
     }
 }
