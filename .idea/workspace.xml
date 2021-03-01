@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PolyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PolyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PolyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polynomial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Monomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Monomial.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Polynomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Polynomial.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,9 @@
       <workItem from="1614175286095" duration="4443000" />
       <workItem from="1614281714037" duration="81000" />
       <workItem from="1614447896003" duration="6977000" />
-      <workItem from="1614535445023" duration="1265000" />
+      <workItem from="1614535445023" duration="1878000" />
+      <workItem from="1614582513387" duration="15010000" />
+      <workItem from="1614602941667" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -143,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614455042977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1614536738172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614536738172</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,38 +203,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614281782078" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614535821288">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1614606624537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614535821288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614535821288">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614606624537" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1614606624537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614535821288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614535821288">
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614606624537" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1614606624537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614535821288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614535821288">
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614606624537" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1614606624537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614535821288" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614457325799">
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614606624537" />
+    <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614457325799" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1614457325799">
+    <state width="1877" height="207" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614602927624" />
+    <state width="1877" height="207" key="GridCell.Tab.1.center" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614457325799" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1614457325799">
+    <state width="1877" height="207" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614602927624" />
+    <state width="1877" height="207" key="GridCell.Tab.1.left" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614457325799" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1614457325799">
+    <state width="1877" height="207" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614602927624" />
+    <state width="1877" height="207" key="GridCell.Tab.1.right" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614457325799" />
+    <state width="1877" height="207" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614602927624" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1614176271119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,9 +243,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614455046672" />
+    <state x="190" y="153" width="1392" height="757" key="dock-window-1" timestamp="1614601085981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="190" y="153" width="1392" height="757" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1614601085981" />
     <state x="551" y="181" key="new project wizard" timestamp="1614281798187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614281798187" />
+    <state x="660" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1614598019094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614598019094" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="p2.content" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

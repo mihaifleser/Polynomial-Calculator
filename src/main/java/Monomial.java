@@ -1,9 +1,11 @@
+import java.util.Comparator;
+
 public class Monomial {
 
-    private Integer coefficient;
-    private Integer degree;
+    private Float coefficient;
+    private Float degree;
 
-    public Monomial(Integer coefficient, Integer degree)
+    public Monomial(Float coefficient, Float degree)
     {
         this.coefficient = coefficient;
         this.degree = degree;
@@ -11,30 +13,45 @@ public class Monomial {
     public Monomial(String input)
     {
             String[] arrOfStrings = input.split("x\\^", 2);
-            coefficient = Integer.parseInt(arrOfStrings[0]);
-            degree = Integer.parseInt(arrOfStrings[1]);
+            coefficient = Float.parseFloat(arrOfStrings[0]);
+            degree = Float.parseFloat(arrOfStrings[1]);
 
     }
 
-    public Integer getCoefficient() {
+
+    public static Comparator<Monomial> monomialComparator = new Comparator<Monomial>() {
+
+        public int compare(Monomial m1, Monomial m2) {
+            Float degree1 = m1.getDegree();
+            Float degree2 = m2.getDegree();
+
+            //ascending order
+            return degree1.compareTo(degree2);
+
+            //descending order
+            //return StudentName2.compareTo(StudentName1);
+        }};
+
+
+    public Float getCoefficient() {
         return coefficient;
     }
 
-    public void setCoefficient(Integer coefficient) {
+    public void setCoefficient(Float coefficient) {
         this.coefficient = coefficient;
     }
 
-    public Integer getDegree() {
+    public Float getDegree() {
         return degree;
     }
 
-    public void setDegree(Integer degree) {
+    public void setDegree(Float degree) {
         this.degree = degree;
     }
 
     public String writeMonomial()
     {
-        String result = coefficient.toString() + "x^" + degree.toString();
+        String result = coefficient + "x^" + degree;
         return result;
     }
 }
