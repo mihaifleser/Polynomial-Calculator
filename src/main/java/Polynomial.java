@@ -8,7 +8,11 @@ public class Polynomial {
 
     public Polynomial(Polynomial p)
     {
-        this.content = new ArrayList<>(p.getContent());
+        this.content = new ArrayList<>();
+        for (Monomial m:p.getContent())
+        {
+            this.content.add(new Monomial(m.getCoefficient(),m.getDegree()));
+        }
     }
 
     public Polynomial(String input) {

@@ -27,5 +27,14 @@ public class Main {
         System.out.println("P2: " + p2.writePoly());
         System.out.println("///////////////");
 
+        Polynomial result3;
+        result3 = ph.test(p1);
+        System.out.println(result3.writePoly());
+
+        System.out.println("///////////////");
+        System.out.println("P1: " + p1.writePoly());
+        System.out.println("P2: " + p2.writePoly());
+        System.out.println("///////////////");
+
     }
 }
