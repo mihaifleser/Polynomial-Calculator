@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String args[])
     {
+        GUI gui = new GUI();
         PolyHandler ph = new PolyHandler();
         Polynomial p1 = new Polynomial("3x^1 + 2x^2 - 7x^4");
         System.out.println("P1: " + p1.writePoly());
@@ -35,6 +36,8 @@ public class Main {
         System.out.println("P1: " + p1.writePoly());
         System.out.println("P2: " + p2.writePoly());
         System.out.println("///////////////");
+
+        gui.initialize();
 
     }
 }
