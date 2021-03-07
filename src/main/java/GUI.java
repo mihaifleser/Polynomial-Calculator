@@ -83,7 +83,7 @@ public class GUI {
         frame.add(p3Label);
         JTextArea p3Text = new JTextArea();
         p3Text.setFont(new Font(Font.SERIF,  Font.PLAIN, 17));
-        p3Text.setBounds(p3Label.getX(), p3Label.getY() + labelHeight,labelWidth,labelHeight);
+        p3Text.setBounds(p3Label.getX(), p3Label.getY() + labelHeight,labelWidth,2 * labelHeight);
         p3Text.setEditable(false);
         frame.add(p3Text);
 
