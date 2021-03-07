@@ -59,6 +59,34 @@ public class PolyHandler {
         return  result;
     }
 
+    public Polynomial derivatePolynomial(Polynomial p1)
+    {
+        Polynomial aux1 = new Polynomial(p1);
+        Polynomial result = new Polynomial();
+        for(Monomial m1:aux1.getContent())
+        {
+            Monomial auxM = new Monomial(m1.getCoefficient().floatValue() * m1.getDegree().intValue(), m1.getDegree().intValue() - 1);
+            result.addMonomial(auxM);
+        }
+
+        return  result;
+    }
+
+    public Polynomial integratePolynomial(Polynomial p1)
+    {
+        Polynomial aux1 = new Polynomial(p1);
+        Polynomial result = new Polynomial();
+        for(Monomial m1:aux1.getContent())
+        {
+            Monomial auxM = new Monomial(m1.getCoefficient().floatValue() / (m1.getDegree().floatValue() + 1), m1.getDegree().intValue() + 1);
+            result.addMonomial(auxM);
+        }
+
+        return  result;
+    }
+
+
+
     public Polynomial test(Polynomial p1)
     {
         Polynomial aux1 = new Polynomial(p1);

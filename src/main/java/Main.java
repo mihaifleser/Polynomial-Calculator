@@ -1,6 +1,8 @@
 // This is the main Class
 //   3*x^2 - x + 1
 //    x - 2
+//     x^3 - 2x^2 + 6 * x - 5
+//    x^3 + 4*x + 5
 
 
 public class Main {

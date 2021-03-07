@@ -97,7 +97,7 @@ public class Polynomial {
             if(aux_coeff != 0)
                 aux.add(new Monomial(aux_coeff,localM.getDegree()));
         }
-        if(!exists)
+        if(!exists && m.getCoefficient().floatValue() != 0)
             aux.add(new Monomial(m.getCoefficient(), m.getDegree()));
         content = new ArrayList<>(aux);
     }

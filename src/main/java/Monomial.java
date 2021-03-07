@@ -98,6 +98,7 @@ public class Monomial {
             else
                 result ="" + coefficient.floatValue();
         }
+
         if(degree.intValue() > 1)
             result = result + "x^" + degree.intValue();
         else

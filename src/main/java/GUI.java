@@ -140,18 +140,34 @@ public class GUI {
         divide.setForeground(Color.white);
         frame.add(divide);//adding button in JFrame
 
-        JButton derivate=new JButton("DERIVATE");//creating instance of JButton
+        JButton derivate=new JButton("DERIVATE P1");//creating instance of JButton
         derivate.setBounds(0,buttonHeight * 4,buttonWidth, buttonHeight);//x axis, y axis, width, height
         derivate.setBackground(buttonColor);
         derivate.setFont(new Font(Font.SERIF,  Font.BOLD, 13));
         derivate.setForeground(Color.white);
+        derivate.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                p3Text.setText(controller.derivatePolynomial(p1Text.getText()));
+            }
+        });
         frame.add(derivate);//adding button in JFrame
 
-        JButton integrate=new JButton("INTEGRATE");//creating instance of JButton
+        JButton integrate=new JButton("INTEGRATE P1");//creating instance of JButton
         integrate.setBounds(0,buttonHeight * 5,buttonWidth, buttonHeight);//x axis, y axis, width, height
         integrate.setBackground(buttonColor);
-        integrate.setFont(new Font(Font.SERIF,  Font.BOLD, 13));
+        integrate.setFont(new Font(Font.SERIF,  Font.BOLD, 12));
         integrate.setForeground(Color.white);
+        integrate.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                p3Text.setText(controller.integratePolynomial(p1Text.getText()));
+            }
+        });
         frame.add(integrate);//adding button in JFrame
 
 

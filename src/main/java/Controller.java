@@ -30,7 +30,18 @@ public class Controller {
         Polynomial result = ph.multiplyPolynomials(p1,p2);
         return result.writePoly();
     }
-
+    public String derivatePolynomial(String first)
+    {
+        Polynomial p1 = new Polynomial(first);
+        Polynomial result = ph.derivatePolynomial(p1);
+        return result.writePoly();
+    }
+    public String integratePolynomial(String first)
+    {
+        Polynomial p1 = new Polynomial(first);
+        Polynomial result = ph.integratePolynomial(p1);
+        return result.writePoly();
+    }
 }
 
 
