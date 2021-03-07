@@ -22,6 +22,9 @@
     <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +110,7 @@
       <workItem from="1614681582670" duration="2411000" />
       <workItem from="1614766508402" duration="12449000" />
       <workItem from="1614970117436" duration="1295000" />
-      <workItem from="1615115166046" duration="14010000" />
+      <workItem from="1615115166046" duration="18314000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615135264816</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <created>1615139899627</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615139899627</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,25 +266,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614770975004" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615135741895">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615143929954">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615135741895" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615143929954" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615135741894">
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615143929953">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615135741894" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615143929953" />
     <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615135741894">
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615143929953">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615135741894" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615143929953" />
     <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615135741895">
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615143929954">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615135741895" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615143929954" />
     <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
     <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -316,6 +326,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614786715364" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615140984872">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615140984872" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

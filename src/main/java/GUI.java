@@ -11,8 +11,19 @@ public class GUI {
         controller = new Controller(new PolyHandler(),this);
     }
 
+    private static boolean checkInput(String input)
+    {
+        if (input.matches("^[0-9-+^*x ]+$")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public void run()
     {
+        String errorMessage1 = "<html>Error. Please fill first and use only characters like x, +,<br/> -, *, ^ or  numbers. Example: 3 * x^2 - x + 1</html>";
+        String errorMessage2 = "<html>Error. Please fill both and use only characters like x, +,<br/> -, *, ^ or  numbers. Example: 3 * x^2 - x + 1</html>";
         /*
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(720, 600);
@@ -77,6 +88,12 @@ public class GUI {
         p2Text.setBounds(p2Label.getX(), p2Label.getY() + labelHeight,labelWidth,labelHeight);
         frame.add(p2Text);
 
+        JLabel errorLabel = new JLabel("");
+        errorLabel.setFont(new Font(Font.SERIF,  Font.PLAIN, 16));
+        errorLabel.setBounds(p1Label.getX(), p2Text.getY() + labelHeight,labelWidth,labelHeight);
+        errorLabel.setForeground(Color.red);
+        frame.add(errorLabel);
+
         JLabel p3Label = new JLabel("Result:");
         p3Label.setFont(new Font(Font.SERIF,  Font.ITALIC, 18));
         p3Label.setBounds(p1Label.getX(), p2Text.getY() + 3 * labelHeight,labelWidth,labelHeight);
@@ -86,6 +103,11 @@ public class GUI {
         p3Text.setBounds(p3Label.getX(), p3Label.getY() + labelHeight,labelWidth,2 * labelHeight);
         p3Text.setEditable(false);
         frame.add(p3Text);
+
+        JLabel madeByLabel = new JLabel("@ Made By Fleser Mihai");
+        madeByLabel.setFont(new Font(Font.SERIF,  Font.ITALIC, 14));
+        madeByLabel.setBounds(p3Text.getX() + buttonWidth, p3Text.getY() + 4 * labelHeight,labelWidth,labelHeight);
+        frame.add(madeByLabel);
 
 
         JButton addition=new JButton("ADD");//creating instance of JButton
@@ -97,8 +119,16 @@ public class GUI {
 
             @Override
             public void actionPerformed(ActionEvent e) {
+                if(checkInput(p1Text.getText()) && checkInput(p2Text.getText()))
+                {
+                    p3Text.setText(controller.addPolyomials(p1Text.getText(),p2Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage2);
+                }
 
-                p3Text.setText(controller.addPolyomials(p1Text.getText(),p2Text.getText()));
             }
         });
         frame.add(addition);//adding addition in JFrame
@@ -113,7 +143,15 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                p3Text.setText(controller.substractPolynomials(p1Text.getText(),p2Text.getText()));
+                if(checkInput(p1Text.getText()) && checkInput(p2Text.getText()))
+                {
+                    p3Text.setText(controller.substractPolynomials(p1Text.getText(),p2Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage2);
+                }
             }
         });
         frame.add(substract);//adding substracton button in JFrame
@@ -128,7 +166,15 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                p3Text.setText(controller.multiplyPolynomials(p1Text.getText(),p2Text.getText()));
+                if(checkInput(p1Text.getText()) && checkInput(p2Text.getText()))
+                {
+                    p3Text.setText(controller.multiplyPolynomials(p1Text.getText(),p2Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage2);
+                }
             }
         });
         frame.add(multiply);//adding multiplication button in JFrame
@@ -150,7 +196,15 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                p3Text.setText(controller.derivatePolynomial(p1Text.getText()));
+                if(checkInput(p1Text.getText()))
+                {
+                    p3Text.setText(controller.derivatePolynomial(p1Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage1);
+                }
             }
         });
         frame.add(derivate);//adding button in JFrame
@@ -165,7 +219,15 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                p3Text.setText(controller.integratePolynomial(p1Text.getText()));
+                if(checkInput(p1Text.getText()))
+                {
+                    p3Text.setText(controller.integratePolynomial(p1Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage1);
+                }
             }
         });
         frame.add(integrate);//adding button in JFrame
