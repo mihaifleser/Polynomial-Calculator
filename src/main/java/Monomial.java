@@ -26,7 +26,7 @@ public class Monomial {
             Number degree2 = m2.getDegree();
 
             //ascending order
-            if(degree1.floatValue() < degree2.floatValue())
+            if(degree1.floatValue() > degree2.floatValue())
                 return -1;
             else
                 return 1;
@@ -54,7 +54,23 @@ public class Monomial {
 
     public String writeMonomial()
     {
-        String result = coefficient + "x^" + degree;
+        String result;
+        if(coefficient.floatValue() == coefficient.intValue())
+        {
+            if(coefficient.floatValue() > 0)
+                result ="+" + coefficient.intValue() + "x^" + degree.intValue();
+            else
+                result = coefficient.intValue() + "x^" + degree.intValue();
+        }
+        else
+        {
+            if(coefficient.floatValue() > 0)
+                result ="+" + coefficient.floatValue() + "x^" + degree.intValue();
+            else
+                result = coefficient.floatValue() + "x^" + degree.intValue();
+        }
+
+
         return result;
     }
 }
