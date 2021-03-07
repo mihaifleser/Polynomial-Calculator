@@ -2,10 +2,10 @@ import java.util.Comparator;
 
 public class Monomial {
 
-    private Float coefficient;
-    private Float degree;
+    private Number coefficient;
+    private Number degree;
 
-    public Monomial(Float coefficient, Float degree)
+    public Monomial(Number coefficient, Number degree)
     {
         this.coefficient = coefficient;
         this.degree = degree;
@@ -22,30 +22,33 @@ public class Monomial {
     public static Comparator<Monomial> monomialComparator = new Comparator<Monomial>() {
 
         public int compare(Monomial m1, Monomial m2) {
-            Float degree1 = m1.getDegree();
-            Float degree2 = m2.getDegree();
+            Number degree1 = m1.getDegree();
+            Number degree2 = m2.getDegree();
 
             //ascending order
-            return degree1.compareTo(degree2);
+            if(degree1.floatValue() < degree2.floatValue())
+                return -1;
+            else
+                return 1;
 
             //descending order
             //return StudentName2.compareTo(StudentName1);
         }};
 
 
-    public Float getCoefficient() {
+    public Number getCoefficient() {
         return coefficient;
     }
 
-    public void setCoefficient(Float coefficient) {
+    public void setCoefficient(Number coefficient) {
         this.coefficient = coefficient;
     }
 
-    public Float getDegree() {
+    public Number getDegree() {
         return degree;
     }
 
-    public void setDegree(Float degree) {
+    public void setDegree(Number degree) {
         this.degree = degree;
     }
 

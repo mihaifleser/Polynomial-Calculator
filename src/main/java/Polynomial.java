@@ -60,12 +60,12 @@ public class Polynomial {
             {
                 if(content.get(j).getDegree() == aux.getDegree())
                 {
-                    aux.setCoefficient(aux.getCoefficient() + content.get(j).getCoefficient());
+                    aux.setCoefficient(aux.getCoefficient().floatValue() + content.get(j).getCoefficient().floatValue());
                     content.remove(j);
                     j--;
                 }
             }
-            if(aux.getCoefficient() != 0)
+            if(aux.getCoefficient().floatValue() != 0)
                 result.add(aux);
         }
         content = result;
@@ -76,10 +76,10 @@ public class Polynomial {
         boolean exists = false;
         for(Monomial localM: content)
         {
-            Float aux_coeff = localM.getCoefficient();
-            if(localM.getDegree().compareTo(m.getDegree()) == 0 )
+            Float aux_coeff = localM.getCoefficient().floatValue();
+            if(localM.getDegree().intValue() == m.getDegree().intValue())
             {
-                aux_coeff = aux_coeff + m.getCoefficient();
+                aux_coeff = aux_coeff + m.getCoefficient().floatValue();
                 exists = true;
             }
             if(aux_coeff != 0)

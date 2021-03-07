@@ -29,7 +29,7 @@ public class PolyHandler {
         Polynomial result = new Polynomial();
         for(Monomial m:aux2.getContent())
         {
-            m.setCoefficient(m.getCoefficient() * -1);
+            m.setCoefficient(m.getCoefficient().floatValue() * -1);
         }
         for(Monomial m1:aux1.getContent())
         {
