@@ -17,12 +17,24 @@ public class Polynomial {
 
     public Polynomial(String input) {
         content = new ArrayList<>();
+        input = input.replaceAll("\\*+","");
         input = input.replaceAll("\\s+","");
-        Pattern pattern = Pattern.compile("[+-]?[^x]+x\\^[+-]?[^+-]+");
+
+
+        /*
+        String[] arrOfStrings = input.split("[+-]", 100);
+        for(String str:arrOfStrings)
+            addMonomial(new Monomial(str));
+         */
+
+        //Pattern pattern = Pattern.compile("[+-]?[^x]+x\\^[+-]?[^+-]+");
+        Pattern pattern = Pattern.compile("[+-]?[^+-]+");
         Matcher m = pattern.matcher(input);
         while (m.find()) {
             addMonomial(new Monomial(m.group()));
         }
+
+
     }
     public Polynomial(ArrayList <Monomial> content)
     {

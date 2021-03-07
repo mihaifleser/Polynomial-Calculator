@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Comparator;
 
 public class Monomial {
@@ -12,9 +13,37 @@ public class Monomial {
     }
     public Monomial(String input)
     {
-            String[] arrOfStrings = input.split("x\\^", 2);
-            coefficient = Float.parseFloat(arrOfStrings[0]);
-            degree = Float.parseFloat(arrOfStrings[1]);
+        if(input.contains("x"))
+        {
+            if(input.contains("^"))
+            {
+                String[] arrOfStrings = input.split("x[\\^]?", 2);
+                if(arrOfStrings[0].compareTo("") == 0 || arrOfStrings[0].compareTo("+") == 0)
+                    coefficient = 1;
+                else if (arrOfStrings[0].compareTo("-") == 0)
+                    coefficient = -1;
+                else
+                    coefficient = Float.parseFloat(arrOfStrings[0]);
+                degree = Float.parseFloat(arrOfStrings[1]);
+            }
+            else
+            {
+                String[] arrOfStrings = input.split("x[\\^]?", 2);
+                if(arrOfStrings[0].compareTo("") == 0 || arrOfStrings[0].compareTo("+") == 0)
+                    coefficient = 1;
+                else if (arrOfStrings[0].compareTo("-") == 0)
+                    coefficient = -1;
+                    else
+                        coefficient = Float.parseFloat(arrOfStrings[0]);
+                degree = 1;
+
+            }
+        }
+        else
+        {
+            coefficient = Float.parseFloat(input);
+            degree = 0;
+        }
 
     }
 
@@ -58,18 +87,22 @@ public class Monomial {
         if(coefficient.floatValue() == coefficient.intValue())
         {
             if(coefficient.floatValue() > 0)
-                result ="+" + coefficient.intValue() + "x^" + degree.intValue();
+                result ="+" + coefficient.intValue();
             else
-                result = coefficient.intValue() + "x^" + degree.intValue();
+                result = "" + coefficient.intValue();
         }
         else
         {
             if(coefficient.floatValue() > 0)
-                result ="+" + coefficient.floatValue() + "x^" + degree.intValue();
+                result ="+" + coefficient.floatValue();
             else
-                result = coefficient.floatValue() + "x^" + degree.intValue();
+                result ="" + coefficient.floatValue();
         }
-
+        if(degree.intValue() > 1)
+            result = result + "x^" + degree.intValue();
+        else
+            if(degree.intValue() == 1)
+                result = result + "x";
 
         return result;
     }
