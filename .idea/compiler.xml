@@ -12,4 +12,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PT2021_30424_Fleser_Mihai_Assignment_1" options="--add-exports jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

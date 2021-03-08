@@ -24,37 +24,7 @@ public class GUI {
     {
         String errorMessage1 = "<html>Error. Please fill first and use only characters like x, +,<br/> -, *, ^ or  numbers. Example: 3 * x^2 - x + 1</html>";
         String errorMessage2 = "<html>Error. Please fill both and use only characters like x, +,<br/> -, *, ^ or  numbers. Example: 3 * x^2 - x + 1</html>";
-        /*
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(720, 600);
-        JLabel label1 = new JLabel("test1");
-        label1.setBounds(0,0,frame.getWidth(),frame.getHeight());
-        label1.setBackground(Color.blue);
-        JLabel label2 = new JLabel("test2");
-        JLabel label11 = new JLabel("test11");
-        JLabel label22 = new JLabel("test22");
 
-        Box bigBox = Box.createHorizontalBox();
-        Box boxLeft = Box.createVerticalBox();
-        boxLeft.setSize(new Dimension(3 * frame.getWidth()/4, frame.getHeight()));
-        Box boxRight = Box.createVerticalBox();
-        boxRight.setSize(new Dimension(frame.getWidth()/4, frame.getHeight()));
-        boxLeft.add(label1);
-        boxLeft.add(label11);
-        boxRight.add(label2);
-        boxRight.add(label22);
-
-        bigBox.setBounds(0,0,frame.getWidth(),frame.getHeight());
-        bigBox.add(boxLeft);
-        bigBox.add(boxRight);
-        bigBox.setBackground(Color.blue);
-        bigBox.setVisible(true);
-
-
-        //frame.add(bigBox);
-        frame.add(label1);
-        frame.setVisible(true);
-        */
         Color buttonColor = Color.decode("#1A535C");
         Color frameColor = Color.decode("#4ECDC4");
         int width = 720; int height = 600;
@@ -184,6 +154,22 @@ public class GUI {
         divide.setBackground(buttonColor);
         divide.setFont(new Font(Font.SERIF,  Font.BOLD, 13));
         divide.setForeground(Color.white);
+        divide.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(checkInput(p1Text.getText()) && checkInput(p2Text.getText()))
+                {
+                    p3Text.setText(controller.dividePolynomial(p1Text.getText(),p2Text.getText()));
+                    errorLabel.setText("");
+                }
+                else
+                {
+                    errorLabel.setText(errorMessage2);
+                }
+            }
+        });
         frame.add(divide);//adding button in JFrame
 
         JButton derivate=new JButton("DERIVATE P1");//creating instance of JButton

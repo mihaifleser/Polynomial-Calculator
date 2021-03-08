@@ -46,7 +46,7 @@ public class Polynomial {
     }
 
     public ArrayList<Monomial> getContent() {
-        return new ArrayList<>(content);
+        return content;
     }
 
     public ArrayList<Monomial> deepCopy() {

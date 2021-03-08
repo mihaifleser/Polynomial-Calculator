@@ -3,16 +3,20 @@
 //    x - 2
 //     x^3 - 2x^2 + 6 * x - 5
 //    x^3 + 4*x + 5
+//    x^3 - 2*x^2 + 6x - 5
+//      x^2 - 1
 
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String args[])
     {
         GUI gui = new GUI();
         PolyHandler ph = new PolyHandler();
-        Polynomial p1 = new Polynomial("3x^1 + 2x^2 - 7x^4");
+        Polynomial p1 = new Polynomial("3x^2+5x+2");
         System.out.println("P1: " + p1.writePoly());
-        Polynomial p2 = new Polynomial("2*x -4x^4 + 9x^5 - 3x + 5x^2 +5x^2 + 24");
+        Polynomial p2 = new Polynomial("2x+1");
         System.out.println("P2: " + p2.writePoly());
 
         Polynomial result1;
@@ -41,6 +45,12 @@ public class Main {
         System.out.println("P1: " + p1.writePoly());
         System.out.println("P2: " + p2.writePoly());
         System.out.println("///////////////");
+
+        ArrayList<Polynomial> division =  ph.dividePolynomials(p1,p2);
+        for(Polynomial p:division)
+        {
+            System.out.println(p.writePoly());
+        }
 
         gui.run();
 

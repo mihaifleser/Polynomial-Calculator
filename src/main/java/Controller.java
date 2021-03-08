@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Controller {
     private PolyHandler ph;
     private GUI gui;
@@ -42,6 +44,16 @@ public class Controller {
         Polynomial result = ph.integratePolynomial(p1);
         return result.writePoly();
     }
+    public String dividePolynomial(String first, String second)
+    {
+        Polynomial p1 = new Polynomial(first);
+        Polynomial p2 = new Polynomial(second);
+        ArrayList <Polynomial> result = ph.dividePolynomials(p1,p2);
+        String output;
+        output = "Quotient: " + result.get(0).writePoly() +"\n" + "Remainder: " + result.get(1).writePoly();
+        return output;
+    }
+
 }
 
 
