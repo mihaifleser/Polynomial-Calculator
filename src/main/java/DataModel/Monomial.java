@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package DataModel;
+
 import java.util.Comparator;
 
 public class Monomial {

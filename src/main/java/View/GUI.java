@@ -1,14 +1,18 @@
+package View;
+
+import Controller.Controller;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GUI {
-    private JFrame frame = new JFrame("Polynomial Calculator");
+    private JFrame frame = new JFrame("DataModel.Polynomial Calculator");
     private Controller controller;
     public GUI()
     {
-        controller = new Controller(new PolyHandler(),this);
+        controller = new Controller(this);
     }
 
     private static boolean checkInput(String input)

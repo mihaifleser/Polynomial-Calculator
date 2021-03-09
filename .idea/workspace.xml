@@ -19,14 +19,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="GUI update + error handling">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Division done.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataModel/PolyOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PolyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PolyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polynomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/Monomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PolyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/Polynomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Monomial$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Monomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PolyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Polynomial.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +74,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OOP/CarPark" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../IntelliJ/CursGoogle/Curs1/GitChallange" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,13 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +130,8 @@
       <workItem from="1614970117436" duration="1295000" />
       <workItem from="1615115166046" duration="18494000" />
       <workItem from="1615144149867" duration="191000" />
-      <workItem from="1615191614700" duration="7928000" />
+      <workItem from="1615191614700" duration="9914000" />
+      <workItem from="1615284188886" duration="5379000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -227,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615144090558</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Division done.">
+      <created>1615200011183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615200011183</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +287,8 @@
     <MESSAGE value="First update" />
     <MESSAGE value="Update" />
     <MESSAGE value="GUI update + error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI update + error handling" />
+    <MESSAGE value="Division done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Division done." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1614107142526">
@@ -273,29 +299,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614448211053" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614770975004">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2473" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615289897390">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2473" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615289897390" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1615201294139">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615201294139" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614770975004" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615199637535">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615290003440">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615199637535" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003440" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615199637535">
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615290003439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615199637535" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
     <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615199637535">
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615290003439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615199637535" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
     <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615199637535">
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615290003439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615199637535" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
     <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
     <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -317,10 +348,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614176271119" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615144177260">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615200018608">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615144177260" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615200018608" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614777547165" />
     <state x="190" y="153" width="1392" height="757" key="dock-window-1" timestamp="1614601085981">
       <screen x="0" y="0" width="1920" height="1040" />
