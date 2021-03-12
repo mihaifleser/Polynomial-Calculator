@@ -50,6 +50,14 @@ public class Polynomial {
     public ArrayList<Monomial> getContent() {
         return content;
     }
+    public ArrayList<Monomial> getCopyOfContent() {
+        ArrayList<Monomial> result= new ArrayList<>();
+        for(Monomial m:content)
+        {
+            result.add(new Monomial(m.getCoefficient(),m.getDegree()));
+        }
+        return result;
+    }
 
     public ArrayList<Monomial> deepCopy() {
         ArrayList<Monomial> result = new ArrayList<Monomial>();
@@ -87,10 +95,13 @@ public class Polynomial {
     {
         String result = "";
         Collections.sort(content, Monomial.monomialComparator);
-        for(Monomial m: content)
+        if(content.size() > 0)
         {
-            result += m.writeMonomial() + " ";
+            for(Monomial m: content)
+                result += m.writeMonomial() + " ";
         }
+        else
+            result = result + "0";
         return result;
     }
 }

@@ -19,28 +19,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Division done.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataModel/PolyOperations.java" afterDir="false" />
+    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="More organised.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Monomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/Monomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PolyHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/Polynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Monomial$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Monomial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PolyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataModel/PolyOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/PolyOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataModel/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataModel/Polynomial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,23 +65,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,7 +105,11 @@
       <workItem from="1615115166046" duration="18494000" />
       <workItem from="1615144149867" duration="191000" />
       <workItem from="1615191614700" duration="9914000" />
-      <workItem from="1615284188886" duration="5379000" />
+      <workItem from="1615284188886" duration="6854000" />
+      <workItem from="1615486534973" duration="631000" />
+      <workItem from="1615532244656" duration="140000" />
+      <workItem from="1615533106893" duration="1443000" />
+      <workItem from="1615534670713" duration="550000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -252,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615200011183</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="More organised.">
+      <created>1615290288351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615290288351</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +273,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="GUI update + error handling" />
     <MESSAGE value="Division done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Division done." />
+    <MESSAGE value="More organised." />
+    <option name="LAST_COMMIT_MESSAGE" value="More organised." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1614107142526">
@@ -303,31 +289,35 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2473" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615289897390" />
+    <state x="2663" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615290166237">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2663" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290166237" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1615201294139">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615201294139" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614770975004" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615290003440">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615535004383">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003440" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615290003439">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615535004383" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615535004383">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615290003439">
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615535004383" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615535004383">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899044" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615290003439">
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615535004383" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615535004383">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290003439" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614786899045" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615535004383" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
     <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -348,10 +338,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614176271119" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615200018608">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615290298103">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615200018608" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290298103" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614777547165" />
     <state x="190" y="153" width="1392" height="757" key="dock-window-1" timestamp="1614601085981">
       <screen x="0" y="0" width="1920" height="1040" />

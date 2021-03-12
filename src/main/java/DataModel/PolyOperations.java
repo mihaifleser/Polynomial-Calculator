@@ -110,7 +110,7 @@ public class PolyOperations {
             copyOfP1 = substractPolynomials(copyOfP1,multiply);
             tempPoly.getContent().remove(tempMoni);
 
-        }while(copyOfP1.getContent().get(0).getDegree().intValue() >= copyOfP2.getContent().get(0).getDegree().intValue());
+        }while(copyOfP1.getContent().size() != 0 && copyOfP1.getContent().get(0).getDegree().intValue() >= copyOfP2.getContent().get(0).getDegree().intValue());
         result.add(cat);
         result.add(copyOfP1);
 
