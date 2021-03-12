@@ -6,6 +6,7 @@
 //      x^2 - 1
 
 
+import Controller.Controller;
 import DataModel.PolyOperations;
 import DataModel.Polynomial;
 import View.GUI;
@@ -15,7 +16,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String args[])
     {
-        GUI gui = new GUI();
         Polynomial p1 = new Polynomial("3x^2+5x+2");
         System.out.println("P1: " + p1.writePoly());
         Polynomial p2 = new Polynomial("2x+1");
@@ -54,7 +54,8 @@ public class Main {
             System.out.println(p.writePoly());
         }
 
-        gui.run();
+        Controller controller = new Controller(new GUI());
+        controller.run();
 
     }
 }
