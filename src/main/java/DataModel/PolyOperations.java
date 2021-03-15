@@ -1,8 +1,4 @@
 package DataModel;
-
-import DataModel.Monomial;
-import DataModel.Polynomial;
-
 import java.util.ArrayList;
 import java.util.Collections;
 

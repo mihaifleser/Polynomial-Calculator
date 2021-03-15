@@ -22,14 +22,6 @@ public class Polynomial {
         input = input.replaceAll("\\*+","");
         input = input.replaceAll("\\s+","");
 
-
-        /*
-        String[] arrOfStrings = input.split("[+-]", 100);
-        for(String str:arrOfStrings)
-            addMonomial(new DataModel.Monomial(str));
-         */
-
-        //Pattern pattern = Pattern.compile("[+-]?[^x]+x\\^[+-]?[^+-]+");
         Pattern pattern = Pattern.compile("[+-]?[^+-]+");
         Matcher m = pattern.matcher(input);
         while (m.find()) {

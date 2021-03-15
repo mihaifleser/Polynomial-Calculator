@@ -1,10 +1,6 @@
 package View;
-
-import Controller.Controller;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GUI {
@@ -92,6 +88,7 @@ public class GUI {
 
         p1Text.setFont(new Font(Font.SERIF,  Font.PLAIN, 17));
         p1Text.setBounds(p1Label.getX(), p1Label.getY() + labelHeight,labelWidth,labelHeight);
+        p1Text.setText("x^3 - 2x^2 + 6 * x - 5");
         frame.add(p1Text);
 
         JLabel p2Label = new JLabel("Second Polynomial:");
@@ -101,6 +98,7 @@ public class GUI {
 
         p2Text.setFont(new Font(Font.SERIF,  Font.PLAIN, 17));
         p2Text.setBounds(p2Label.getX(), p2Label.getY() + labelHeight,labelWidth,labelHeight);
+        p2Text.setText("x^2 + 4*x + 5");
         frame.add(p2Text);
 
         errorLabel.setFont(new Font(Font.SERIF,  Font.PLAIN, 16));
