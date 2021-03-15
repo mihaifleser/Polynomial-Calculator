@@ -19,8 +19,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Junit Tests.">
+    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polynomial Calculator Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Polynomial Calculator Documentation.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../IntelliJ/CursGoogle/Curs1/GitChallange" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -200,7 +201,9 @@
       <workItem from="1615790375281" duration="676000" />
       <workItem from="1615791087961" duration="118000" />
       <workItem from="1615791268162" duration="134000" />
-      <workItem from="1615794857382" duration="3332000" />
+      <workItem from="1615794857382" duration="6767000" />
+      <workItem from="1615821162279" duration="4366000" />
+      <workItem from="1615829716910" duration="5220000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -356,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615796156404</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Documentation">
+      <created>1615798416869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615798416869</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +407,8 @@
     <MESSAGE value="Design Patterns and more error handling done." />
     <MESSAGE value="Final" />
     <MESSAGE value="Junit Tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Junit Tests." />
+    <MESSAGE value="Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1614107142526">
@@ -416,30 +427,30 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2663" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615290166237" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1615201294139">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1615829590532">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615201294139" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829590532" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614770975004" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615798084761">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615829596730">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798084761" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596730" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615798084760">
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615829596729">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798084760" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596729" />
     <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615798084760">
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615829596728">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798084760" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596728" />
     <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615798084761">
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615829596730">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798084761" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596730" />
     <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
     <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -461,10 +472,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614176271119" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615796161712">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615798421960">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615796161712" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798421960" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614777547165" />
     <state x="2672" y="265" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615794987157">
       <screen x="1920" y="0" width="1920" height="1040" />
