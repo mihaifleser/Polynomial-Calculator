@@ -19,9 +19,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Documentation">
+    <list default="true" id="279e2cc6-674b-41a3-b9a0-560710b28b33" name="Default Changelist" comment="Documentation done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polynomial Calculator Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Polynomial Calculator Documentation.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PolyOperationsTest.multiplyPolynomials">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
@@ -86,18 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolyOperationsTest.derivatePolynomial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PolyOperationsTest.addPolynomials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +95,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="DataModel" />
       <option name="MAIN_CLASS_NAME" value="DataModel.PolyOperationsTest" />
-      <option name="METHOD_NAME" value="derivatePolynomial" />
+      <option name="METHOD_NAME" value="addPolynomials" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyOperationsTest.integratePolynomial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataModel" />
-      <option name="MAIN_CLASS_NAME" value="DataModel.PolyOperationsTest" />
-      <option name="METHOD_NAME" value="integratePolynomial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PolyOperationsTest.multiplyPolynomials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
       <extension name="coverage">
@@ -161,13 +133,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PolyOperationsTest.substractPolynomials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PT2021_30424_Fleser_Mihai_Assignment_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataModel" />
+      <option name="MAIN_CLASS_NAME" value="DataModel.PolyOperationsTest" />
+      <option name="METHOD_NAME" value="substractPolynomials" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PolyOperationsTest.multiplyPolynomials" />
+        <item itemvalue="JUnit.PolyOperationsTest.substractPolynomials" />
+        <item itemvalue="JUnit.PolyOperationsTest.addPolynomials" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PolyOperationsTest.dividePolynomials" />
-        <item itemvalue="JUnit.PolyOperationsTest.integratePolynomial" />
-        <item itemvalue="JUnit.PolyOperationsTest.derivatePolynomial" />
-        <item itemvalue="JUnit.PolyOperationsTest.multiplyPolynomials" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +191,8 @@
       <workItem from="1615791268162" duration="134000" />
       <workItem from="1615794857382" duration="6767000" />
       <workItem from="1615821162279" duration="4366000" />
-      <workItem from="1615829716910" duration="5220000" />
+      <workItem from="1615829716910" duration="5835000" />
+      <workItem from="1615890343356" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1614106964009</created>
@@ -366,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615798416869</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Documentation done.">
+      <created>1615837482851</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615837482852</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +404,8 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Junit Tests." />
     <MESSAGE value="Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation" />
+    <MESSAGE value="Documentation done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentation done." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1614107142526">
@@ -432,25 +429,25 @@
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829590532" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614770975004" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615829596730">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1615902364042">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596730" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615902364042" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615829596729">
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1615902364041">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596729" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615902364041" />
     <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615829596728">
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1615902364041">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596728" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615902364041" />
     <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615829596730">
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1615902364041">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615829596730" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615902364041" />
     <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615299314063" />
     <state width="1877" height="207" key="GridCell.Tab.1.bottom" timestamp="1614602927624">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -472,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614176271119" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615798421960">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615837488539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615798421960" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615837488539" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614777547165" />
     <state x="2672" y="265" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615794987157">
       <screen x="1920" y="0" width="1920" height="1040" />
